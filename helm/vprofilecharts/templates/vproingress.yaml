@@ -7,8 +7,8 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: vprofile.thehkh.com # change this to your domain 
-    http:
+ # - host: vprofile.thehkh.com # change this to your domain 
+  - http:
       paths:
       - path: /
         pathType: Prefix
